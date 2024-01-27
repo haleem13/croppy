@@ -41,4 +41,7 @@ flutter:
         ffiPlugin: true
       web: 
 
+   assets:
+    - assets/images/
+
 
