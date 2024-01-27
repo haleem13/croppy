@@ -60,10 +60,10 @@ class CupertinoImageCropHandles extends StatelessWidget {
           clipper: CropShapeClipper(cropShape),
           child: fineGuidesChild,
         ),
-        Opacity(
+       Opacity(
               opacity: 0.3,
-              child: Image.network(
-                'https://cdn.icon-icons.com/icons2/759/PNG/512/stuck-out-tongue-emoticon-face-outline_icon-icons.com_64332.png',
+              child: Image.asset(
+                'assets/images/face_outline.png',
                 // fit: BoxFit.fill,
               ),
             ),
